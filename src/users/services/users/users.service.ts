@@ -5,7 +5,8 @@ import { CreateUserType } from "../../../utils/type";
 export class UsersService {
   private fakeUsers = [
     { userName: 'bangdanh', email: 'bang@gmail.com' }
-    , { userName: 'banh', email: 'aang@example' }
+    , { userName: 'banh', email: 'aang@example' },
+    { userName: 'banh', email: 'aang@example' }
   ];
 
   fetchUser() {
